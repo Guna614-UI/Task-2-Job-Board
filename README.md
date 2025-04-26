@@ -95,6 +95,27 @@ MongoDB Atlas Integration	✅
 Frontend & Backend Integration	✅
 Postman API Testing	✅
 
+# 📥 How to Clone and Run This Project
+Open your terminal and clone the repository:
+git clone https://github.com/your-username/job-board.git
+cd job-board
+Navigate to the backend:
+cd backend
+Install backend dependencies:
+npm install
+Create a .env file inside backend/ and add the following:
+PORT=5000
+MONGO_URI=your_mongodb_atlas_connection_string
+JWT_SECRET=your_secret_key
+Start the backend server:
+npm run dev
+You should see:
+Server running on port 5000
+MongoDB connected
+Navigate back to the frontend:
+
+Open the index.html using Live Server (VS Code extension) or any static server.
+
 # 💬 Notes
 Frontend uses Vanilla JS fetch() for API requests.
 
@@ -112,3 +133,4 @@ Backend uses Express middleware to protect private routes.
 K Guna Surya Kumar
 
 # LinkedIn Profile
+www.linkedin.com/in/guna-surya-kumar-katakam-0b4358275
